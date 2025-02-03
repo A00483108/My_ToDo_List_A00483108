@@ -42,33 +42,13 @@ npm run build
 ### **5️⃣ Deploy as a PWA**
 1. Ensure your **service worker** is registered in `main.jsx`.
 2. Use [Vite PWA Plugin](https://vite-plugin-pwa.netlify.app/) for PWA support.
-3. Deploy using **Netlify**, **Vercel**, or **GitHub Pages**.
-
----
-
-## 📂 Project Structure
-```
-📦 todo-pwa
- ┣ 📂 src
- ┃ ┣ 📜 App.jsx
- ┃ ┣ 📜 main.jsx
- ┃ ┣ 📜 serviceWorkerRegistration.js
- ┃ ┣ 📜 manifest.json
- ┃ ┣ 📜 styles.css
- ┃ ┗ 📂 assets (icons & logos)
- ┣ 📜 index.html
- ┣ 📜 package.json
- ┣ 📜 vite.config.js
- ┗ 📜 README.md
-```
 
 ---
 
 ## 📜 Assumptions & External Resources
 - **React & Vite** are used for fast development.
 - **Vite PWA Plugin** enables PWA capabilities.
-- **IndexedDB/localStorage** ensures data persistence.
-- **Tailwind CSS (or normal CSS)** is used for styling.
+- **localStorage** ensures data persistence.
 - **Icons & Manifest.json** ensure mobile-friendly installation.
 
 ---
@@ -76,6 +56,6 @@ npm run build
 ## 📧 Contact
 For any issues or improvements, feel free to open an **issue** or contribute via **pull requests**.
 
-🔗 **GitHub Repo:** [Your Repo Link]  
-📩 **Email:** [Your Email]
+🔗 **GitHub Repo:** https://github.com/A00483108/My_ToDo_List_A00483108  
+📩 **Email:** sukanta.dey.amit@smu.ca
 
