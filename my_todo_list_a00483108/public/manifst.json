@@ -16,5 +16,21 @@
   "start_url": ".",
   "background_color": "#ffffff",
   "display": "standalone",
-  "theme_color": "#000000"
+  "theme_color": "#000000",
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "To-Do App"
+    },
+    {
+      "src": "icons/todo-320x320.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "To-Do App"
+    }
+  ]
 }
